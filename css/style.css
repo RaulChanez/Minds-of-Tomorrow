@@ -1,0 +1,149 @@
+                * {
+                    box-sizing: border-box;
+                    /* https://fonts.google.com */
+                    font-family: 'Quicksand', sans-serif;
+                }
+                
+                body {
+                    margin: 0;
+                }
+                
+                header {
+                    padding: 25px;
+                    text-align: center;
+                    font-family: 'Quicksand', sans-serif;
+                    background-image: url(../img/banner-2.jpg);
+                    background-size: cover;
+                    background-attachment: fixed;
+                    font-size: 55px;
+                    height: 100vh;
+                }
+                /* Clear floats after the columns */
+                
+                .row:after {
+                    content: "";
+                    display: table;
+                    clear: both;
+                }
+                
+                #section-1 .column2 {
+                    width: 50%;
+                    float: left;
+                    padding: 50px;
+                }
+                
+                h2 {
+                    font-size: 60px;
+                    font-family: 'Quicksand';
+                }
+                
+                p {
+                    font-size: 40px;
+                }
+                
+                .column2>img {
+                    width: 100%;
+                    height: 450px;
+                }
+                
+                #section-2 {
+                    background-color: rgb(32, 221, 158);
+                    text-align: center;
+                    padding: 40px;
+                }
+                
+                .imagenes {
+                    width: 25%;
+                    float: left;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                }
+                
+                .imagenes>img {
+                    width: 75%;
+                }
+                
+                h3 {
+                    text-align: center;
+                }
+                
+                #section-3 .column2 {
+                    width: 50%;
+                    float: left;
+                    padding: 50px;
+                    padding-bottom: 0;
+                }
+                
+                .grande {
+                    width: 25%;
+                    float: left;
+                }
+                
+                .grande>img {
+                    width: 100%;
+                }
+                
+                #section-5 .column1 {
+                    width: 100%;
+                    float: left;
+                    background-color: steelblue;
+                    padding: 50px;
+                    margin: 0;
+                }
+                
+                #section-5>h3 {
+                    font-size: 70px;
+                }
+                
+                #section-6 .column3 {
+                    width: 33.33%;
+                    float: left;
+                    padding: 40px;
+                    background-color: black;
+                    height: 150px;
+                }
+                
+                .column3>h5 {
+                    font-size: 15px;
+                    color: white;
+                }
+                
+                @media screen and (max-width: 700px) {
+                    header h1 {
+                        font-size: 50px;
+                    }
+                    header {
+                        padding: 30vh 10px;
+                    }
+                    #section-1>.column2 {
+                        width: 100%;
+                    }
+                    .imagenes {
+                        width: 50%;
+                        float: left;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+                    .imagenes>img {
+                        width: 80%;
+                    }
+                    #section-3>.column2 {
+                        width: 100%;
+                    }
+                    .grande {
+                        width: 50%;
+                    }
+                    #section-5>h3 {
+                        width: 100%;
+                        font-size: 40px;
+                    }
+                    #section-6 #fecha {
+                        width: 100%;
+                    }
+                    #fecha>h5 {
+                        font-size: 30px;
+                    }
+                    #section-6 #redes {
+                        width: 50%;
+                    }
+                }
