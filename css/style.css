@@ -139,11 +139,15 @@
                     }
                     #section-6 #fecha {
                         width: 100%;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        height: 90px;
                     }
-                    #fecha>h5 {
-                        font-size: 30px;
+                    h5 {
+                        font-size: 20px;
                     }
                     #section-6 #redes {
                         width: 50%;
+                        padding-top: 10px;
                     }
                 }
