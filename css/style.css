@@ -99,8 +99,11 @@
                     width: 33.33%;
                     float: left;
                     padding: 40px;
-                    background-color: black;
                     height: 150px;
+                }
+                
+                #section-6 {
+                    background-color: black;
                 }
                 
                 .column3>h5 {
